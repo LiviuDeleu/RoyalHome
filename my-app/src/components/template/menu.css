@@ -1,0 +1,60 @@
+nav{
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+    padding-top: 15px;
+    font-size: 1.3em;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#TextYellow:hover{
+    color: rgb(118, 118, 24);
+}
+#Menu{
+    width: 120em;
+    height: 4em;
+    display: grid;
+    grid-template-columns: 20em 25em  3em 12em 15em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+button{
+    margin-left: 8em;
+    margin-top: 0.7em;
+    width: 10em;
+    height: 3em;
+    color:white;
+    background-color: #304f3b;
+    border-radius: 50px;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    font-size: 0.9em;
+}
+container{
+    padding-top: 0.4em;
+    margin-left: 20em;
+    padding-left: 10em;
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+}
+img{
+    height: 3em;
+    width: 3em;
+}
+input{
+    padding-inline: 2em;
+    margin-top: 0.5em;;
+    height: 3em;
+    width: 40em;
+    border: 1.5px solid black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.);
+}
+#search{
+    padding-top: 0.9em;
+    height: 2em;
+    width: 2em;
+}
