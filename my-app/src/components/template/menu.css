@@ -34,7 +34,7 @@ button{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
     font-size: 0.9em;
 }
-container{
+#menuIcons{
     padding-top: 0.4em;
     margin-left: 20em;
     padding-left: 10em;

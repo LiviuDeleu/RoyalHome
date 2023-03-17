@@ -1,0 +1,11 @@
+footer{
+    width: 120em;
+    background-color: black;
+}
+
+#logo{
+    height: 5em;
+    width: 5em;
+    position: relative;
+    right: 8em;
+}
