@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "react-bootstrap": "^2.7.2"
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react-bootstrap": "^2.7.2",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.9.0"
   }
 }

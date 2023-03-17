@@ -10,7 +10,9 @@ function App() {
       <HomePage></HomePage>
       <Footer></Footer>
     </div>
+    
   );
+  
 }
 
 export default App;
