@@ -22,6 +22,7 @@
     margin-left: 45em;
     margin-top: -15em;
     z-index: 5;
+    border: none;
 }
 #ContainerIconBlocks{
     display: grid;
