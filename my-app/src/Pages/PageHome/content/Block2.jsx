@@ -2,6 +2,7 @@ import "../../PageHome/Block2.css"
 import Photo3 from "../../../assets/images/HomePage/photo3.jpg"
 import Photo4 from "../../../assets/images/HomePage/photo4.jpg"
 import Photo5 from "../../../assets/images/HomePage/photo5.jpg"
+import { Link } from "react-router-dom";
 
 
 export default function Block2(){
@@ -22,7 +23,9 @@ export default function Block2(){
                 choose your dream <br/>
                 furniture!
              </p>
-             <button id="ButtonBlock2">Read More</button>
+             <Link to="ShopPage">
+                 <button id="ButtonBlock2">Read More</button>
+             </Link>
              <img src={Photo4} id="Photo4"/>
              <p id="BlockText3">​OUR PRODUCTS ARE OF HIGH QUALITY, <br/>
                 LONG-LASTING AND RELIABLE MATERIAL
@@ -33,7 +36,9 @@ export default function Block2(){
                 EXTRAORDINARY <br/>
                 DESIGN CABINETRY
              </p>
-             <button id="ButtonBlock2Yellow">Read More</button>
+             <Link to="ShopPage">
+                    <button id="ButtonBlock2Yellow">Read More</button>
+             </Link>
             </div>
         </div>
     )
