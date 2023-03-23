@@ -11,9 +11,11 @@
 #PhotoA{
     height: 40em;
     width: 30em;
-    padding-top: 3em;
+    margin-top: 3em;
     margin-left: 60em;
     border-radius: 8em;
+    box-shadow: 1px 1px 10px rgba(255, 252, 252, 0.7);
+
 }
 #block1text{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,9 +28,10 @@
     margin-left: -90em;
     height: 20em;
     width: 45em;
+
 }
 #lineBlock1{
-    height: 1em;
+    height: 0.5em;
     width: 25em;
     background-color: #f9e79b;
     position: absolute;

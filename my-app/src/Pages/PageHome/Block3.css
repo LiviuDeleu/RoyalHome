@@ -24,10 +24,58 @@
     z-index: 5;
 }
 #ContainerIconBlocks{
+    display: grid;
+    grid-template-columns: 20em 20em;
+    align-items: center;
     height: 45em;
     width: 40em;
     position: absolute;
     margin-top: -15em;
-    margin-left: 3em;
-    background-color: white;
+    margin-left:7em;
+    background-color: black;
 }
+#Item1{
+    height: 5em;
+    width: 5em;
+}
+#Item2{
+    height: 5em;
+    width: 5em;
+}
+#Item3{
+    height: 5em;
+    width: 5em;
+}
+#Item4{
+    height: 5em;
+    width: 5em;
+}
+.ItemText{
+    font-size: 2em;
+    color: white;
+}
+#Item1Text{
+    font-size: 1.2em;
+    color: white;
+}
+#Item2Text{
+    font-size: 1.2em;
+    color: white;
+}
+#Item3Text{
+    font-size: 1.2em;
+    color: white;
+}
+#Item4Text{
+    font-size: 1.2em;
+    color: white;
+}
+#Block3Text{
+    color: white;
+    position: absolute;
+    margin-top: 10em;
+    margin-left: 35em;
+    font-size: 1.6em;
+    text-align: left;
+}
+
