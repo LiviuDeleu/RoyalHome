@@ -1,4 +1,6 @@
-
+#containerBlock1{
+    width: 120em;
+}
 #Block1{
     background-color: #1a1a1a;
     height: 60em;
@@ -24,4 +26,13 @@
     margin-left: -90em;
     height: 20em;
     width: 45em;
+}
+#lineBlock1{
+    height: 1em;
+    width: 25em;
+    background-color: #f9e79b;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50em;
+    margin-top: -10em;
 }

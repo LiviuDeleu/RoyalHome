@@ -1,7 +1,33 @@
-
 #Block3{
     padding-top: 20em;
     background-color: black;
-    height: 30em;
+    height: 40em;
     width: 110em;
+}
+#Photo6{
+    height: 40em;
+    width: 30em;
+    z-index: 5;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+    margin-top: -25em;
+    margin-left: 10em;
+}
+#Block3LineGreen{
+    height: 1em;
+    width: 25em;
+    background-color: #304f3b;
+    position: absolute;
+    margin-left: 45em;
+    margin-top: -15em;
+    z-index: 5;
+}
+#ContainerIconBlocks{
+    height: 45em;
+    width: 40em;
+    position: absolute;
+    margin-top: -15em;
+    margin-left: 3em;
+    background-color: white;
 }

@@ -1,19 +1,19 @@
-import { Container } from "react-bootstrap";
+
 import './menu.css'
 import Basket from "../../../src/assets/images/Menu/basket.png"
 import Favorites from "../../../src/assets/images/Menu/heart.png"
 import User from "../../../src/assets/images/Menu/user.png"
 import Search from "../../../src/assets/images/Menu/search.png"
+import { Link } from "react-router-dom";
 
 export default function Header(){
-    return (
-        <>
+    return (<>
             <div id="Menu">
-                <button>Call Center</button>
+                <Link to="ContactsPage"><button id='ButtonMenu'>Call Center</button></Link>
                 <nav>
-                    <a href="#" id="TextYellow">Home</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Contacts</a>
+                    <Link to="/" id="TextYellow">Home</Link>
+                    <Link to="ShopPage">Shop</Link>
+                    <Link to="ContactsPage">Contacts</Link>
                 </nav>
                 <img src={Search} id="search"></img>
                 <input type="text" placeholder="Search"></input>
@@ -23,6 +23,6 @@ export default function Header(){
                    <img src={User}/>
                 </container>
             </div>
-        </>
-    )
+    </>)
+
 }

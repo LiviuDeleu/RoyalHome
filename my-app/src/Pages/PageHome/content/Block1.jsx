@@ -10,6 +10,7 @@ export default function Block1(){
                 <p id="block1text">
                 Create your own <br></br>Comfort and beauty<br></br> of soul.
                 </p>
+                <hr id="lineBlock1"></hr>
             </div>
         </container>
     )
