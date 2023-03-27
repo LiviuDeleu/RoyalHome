@@ -1,0 +1,33 @@
+#ProductTopSpace{
+    height: 80em;
+    display: grid;
+    grid-template-columns: 32em 32em 32em;
+    background-color:  #304f3b;
+}
+#ProductCard{
+    margin-top: 3em;
+    position: relative;
+    height: 35em;
+    width: 30em;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin-left: 6em;
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+    color: black;
+}
+
+#ShopProductImage{
+   margin-top: 2em;
+    height: 20em;
+    width: 25em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+#ProductTextName{
+    font-weight: bold;
+}
+#ProductRichTextName{
+    padding: 1em;
+}
