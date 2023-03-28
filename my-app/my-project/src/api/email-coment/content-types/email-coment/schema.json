@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_coments",
+  "info": {
+    "singularName": "email-coment",
+    "pluralName": "email-coments",
+    "displayName": "EmailComent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NameComent": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Message": {
+      "type": "richtext"
+    }
+  }
+}
