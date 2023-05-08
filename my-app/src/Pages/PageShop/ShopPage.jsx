@@ -6,6 +6,7 @@ const Products = () => {
     const [error, setError] = useState(null);
     const [products, setProducts] = useState([]);
 
+  
     useEffect(() => {
         axios
           .get("http://localhost:1337/api/products?populate=ProductMedia")
