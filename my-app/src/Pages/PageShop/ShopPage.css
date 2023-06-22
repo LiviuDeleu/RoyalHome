@@ -32,3 +32,8 @@
 #ProductRichTextName{
     padding: 1em;
 }
+#searchbarmenu{
+    position: relative;
+    top: -65px;
+    left: 200px;
+}

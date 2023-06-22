@@ -15,8 +15,6 @@ export default function Header(){
                     <Link to="ShopPage">Shop</Link>
                     <Link to="ContactsPage">Contacts</Link>
                 </nav>
-                <img src={Search} id="search"></img>
-                <SearchBar></SearchBar>
             
             </div>
     </>)
