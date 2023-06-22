@@ -1,8 +1,9 @@
 #ProductTopSpace{
-    height: 80em;
+    height: auto;
     display: grid;
     grid-template-columns: 32em 32em 32em;
     background-color:  #304f3b;
+    padding-bottom: 3em;
 }
 #ProductCard{
     margin-top: 3em;
